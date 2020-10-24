@@ -28,7 +28,7 @@ def getIp(page):
 	global PAGES
 	iplist = []
 	data = {
-		"query":"domain.com",
+		"query":domain,
 		"page":page,
 		"fields":["parsed.subject_dn"]
 	}
@@ -39,7 +39,7 @@ def getIp(page):
 	try:
 		result = res.json()
 		PAGES  = result['metadata']['pages']
-		print result
+		#print result
 	except:
 		pass
 	for x in result["results"]:

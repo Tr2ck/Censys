@@ -12,8 +12,8 @@ import time
 
 
 API_URL = "https://www.censys.io/api/v1"
-UID = "da4b06c3-5db1-43b5-af32-9870ad92d462"
-SECRET = "KyPSXBGPIiOvfM2R83xq9apwzhVhXT2G"
+UID = ""
+SECRET = ""
 page = 1
 PAGES = 1
 
